@@ -18,8 +18,6 @@ D=1           #%% Dimension
 CYCLE=200     #%% Number of recursive process
 AK0=3         #%% Hyperparameter of mixture ratio : 3/2 Kazuho's critical point
 BK0=1
-AK0=0.01
-BK0=0.01
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 gauss1d=function(x,b,s2){exp(-(x-b)^2/2/s2)/sqrt(2*pi*s2)}
 #%%%%%%%%%%%%%%%%%%%%%% True mixture ratios %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
