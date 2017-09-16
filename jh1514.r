@@ -194,8 +194,8 @@ h1=out(w1,th1,h2)
 h0=out(w0,th0,h1)
 true2=ydata[(Ntrain+1):N]
 ans2=h0
-plot(true1,type="l",col="blue",ylim=c(0,1),xlab="Cycle",ylab="",main="Trained Data: red:true, blue:predicttion")
-lines(ans1[1,],type="l",col="red")
-plot(true2,type="l",col="blue",ylim=c(0,1),xlab="Cycle",ylab="",main="Unknown: red:true, blue:predicttion")
-lines(ans2[1,],type="l",col="red")
+plot(true1,type="l",col="red",ylim=c(0,1),xlab="Cycle",ylab="",main="Trained Data: red:true, blue:predicttion")
+lines(ans1[1,],type="l",col="blue")
+plot(true2,type="l",col="red",ylim=c(0,1),xlab="Cycle",ylab="",main="Unknown: red:true, blue:predicttion")
+lines(ans2[1,],type="l",col="blue")
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
