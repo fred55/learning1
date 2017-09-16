@@ -15,7 +15,7 @@ STD=0.3       #%% 0.1 0.2 0.3 0.4 0.5 %%% Standard deviation in learning machine
 N=100         #%% Number of samples
 D=2           #%% Dimension
 CYCLE=100     #%% Number of recursive process
-AK0=0.01      #%% Hyperparameter of mixture ratio : 3/2 Kazuho's critical point
+AK0=0.5       #%% Hyperparameter of mixture ratio : 3/2 Kazuho's critical point
 BK0=0.01      #%% 1/BK0 = Variance of Prior
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 gauss2d=function(x1,x2,b1,b2,s2){exp(-((x1-b1)^2+(x2-b2)^2)/2/s2)/(2*pi*s2)}
